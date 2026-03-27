@@ -1,0 +1,138 @@
+# .gitignore
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.metadata
+*.tmp
+*.pid
+*.lock
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+*.code-workspace
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+/ios/.symlinks/
+/android/app/src/main/java/io/flutter/plugins/
+/android/app/src/main/java/io/flutter/plugin/
+android/app/src/main/java/com/example/
+android/.project
+android/.classpath
+android/.settings/
+ios/Flutter/podhelper.rb
+ios/Podfile.lock
+ios/Pods/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/xcshareddata/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/ServiceDefinitions.json
+
+# Web related
+**/web/index.html
+**/web/favicon.png
+**/web/manifest.json
+**/web/icons/
+
+# Exceptions to above rules
+!**/ios/Flutter/.ios-environment
+!**/ios/Flutter/Flutter.podspec
+!**/ios/Runner/GeneratedPluginRegistrant.h
+!**/ios/Runner/GeneratedPluginRegistrant.m
+!**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# Windows
+**/windows/flutter/generated_plugins.cmake
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+
+# Linux
+**/linux/flutter/generated_plugins.cmake
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+
+# MacOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Test
+**/coverage/
+**/.test_coverage.dart
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+*.iws
+*.ipr
+*.lock
+captures/
+.externalNativeBuild
+.cxx
+build/
+*.apk
+*.aab
+*.so
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Generated files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+DerivedData/
+.idea/
+*.hmap
+*.xccheckout
+*.xcscmblueprint

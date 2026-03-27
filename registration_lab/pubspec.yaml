@@ -1,0 +1,27 @@
+name: registration_app
+description: A simple user registration form application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Add any additional dependencies here if needed
+  # For example, for form validation or state management:
+  # provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # If you need to add assets like images, uncomment and add them:
+  # assets:
+  #   - assets/images/
